@@ -37,6 +37,8 @@ and identifier.
 - `remove` - removes an already existing person with the specified
 identifier.
 
+- `quit` - shuts down `thrifty-client-go`.
+
 ### Examples
 
 ```text
