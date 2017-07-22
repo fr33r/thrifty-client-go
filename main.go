@@ -131,5 +131,7 @@ func main() {
 		} else {
 			console.Println("Command not recognized. Please use one of the following commands: [get, create, remove]")
 		}
+		command, err = console.PromptForString("Enter Command: ")
 	}
+	console.Println("See ya later!")
 }
