@@ -1,10 +1,11 @@
 # thrifty-client-go
 
 The main purpose of this repository is to provide a 
-working example of how to create a client using Apache 
-[Thrift]() and [golang](). This client provides the 
+working example of how to create a client using [Apache 
+Thrift](https://thrift.apache.org) and 
+[golang](https://golang.org). This client provides the 
 capability to interact with a server application called
-[thrifty]().
+[thrifty](https://github.com/freerjm/thrifty).
 
 ### Up and Running
 
@@ -12,7 +13,7 @@ Here are few steps that should help you get everything
 setup and running:
 
 1. Clone the server application (called thrifty) that 
-this client communicates with [here]().
+this client communicates with [here](https://github.com/freerjm/thrifty).
 
 2. Once in the directory of thrifty, run the following 
 `bash` command: `go build && ./thrifty`
